@@ -1,7 +1,7 @@
 import "./index.css";
 import HomePage from "./pages/HomePage";
 import { Typography } from "@mui/material";
-
+import { Analytics } from "@vercel/analytics/react";
 function App() {
 	return (
 		<>
@@ -17,6 +17,7 @@ function App() {
 
 			{/* Main Content */}
 			<HomePage />
+			<Analytics />
 		</>
 	);
 }
